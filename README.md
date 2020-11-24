@@ -1,0 +1,1 @@
+Soving graph coloring problem with greedy algorithm
