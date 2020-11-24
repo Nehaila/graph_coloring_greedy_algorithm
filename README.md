@@ -2,7 +2,8 @@
 <b>
 Graph coloring problem is an important problem of the graph theory. It has many applications such as solving a sudoku puzzle, solving an assignment problem or even map coloring problems.
 In this repository I solve the graph coloring problem with the greedy algorithm using python.
-With greedy algorithm, the algorithm starts with assigning a color to the first node and adding this color to a list, then proceedes to the other node, checks the nodes that are adjacent to it and removes their according colors if there are any. If the list of colors at the end of this procedure is empty, the node gets assigned a new color, if not, it gets assigned the first available color in the list.
+With greedy algorithm, the algorithm starts with assigning a color to the first node and adding this color to a list, then proceedes to the other node, checks the nodes that are adjacent to it and removes their according colors if there are any. 
+If the list of colors at the end of this procedure is empty, the node gets assigned a new color, if not, it gets assigned the first available color in the list.
 The two following figures show the solutions for two different inputs. You can find the inputs and the solutions in the repository. 
 ![alt text](graphcoloring.jpg)
 ![alt text](graphcoloring2.jpg)
