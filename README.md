@@ -7,7 +7,8 @@ The two following figures show the solutions for two different inputs. You can f
 ![alt text](graphcoloring.jpg)
 ![alt text](graphcoloring2.jpg)
 The code I wrote is the following, which uses matplotlib and networkx libraries for graph drawing: 
-`
+```
+
 from colour import Color
 from copy import deepcopy
 import networkx as nx
@@ -66,5 +67,6 @@ print(C)
 print(G.nodes())
 print(G.edges())
 nx.draw(G, node_color=color_map,with_labels = True,)
-plt.show()`
+plt.show()```
+
 
